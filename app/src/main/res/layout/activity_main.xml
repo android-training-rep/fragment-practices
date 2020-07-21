@@ -16,15 +16,20 @@
             android:id="@+id/android_fragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Android"
+            android:text="@string/android"
             android:onClick="setAndroidFragment"
+            android:textAllCaps="false"
+            android:background="@drawable/button_custom_style"
             />
         <Button
             android:id="@+id/java_fragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Java"
+            android:text="@string/java"
             android:onClick="setJavaFragment"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_custom_style"
             />
     </LinearLayout>
     <FrameLayout
